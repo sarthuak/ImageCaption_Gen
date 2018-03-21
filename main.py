@@ -33,8 +33,7 @@ def two():
       data=np.fromstring(in_memory_file.getvalue(), dtype=np.uint8)
       color_image_flag=1
       img=cv2.imdecode(data,color_image_flag)
-      #numpy
-      #bhai ka code
+
 
       data = {0: 'tench, Tinca tinca',
        1: 'goldfish, Carassius auratus',
@@ -1057,8 +1056,8 @@ def two():
           model.compile(optimizer=sgd, loss='categorical_crossentropy')
           out = model.predict(im)
 
-        #20bn gesture
-        ## database - 1000 tables
+
+	
 
 
       a=[]
